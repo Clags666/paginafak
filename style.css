@@ -1,0 +1,387 @@
+body{
+    background-color: rgb(255, 242, 224);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(167, 149, 126);
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.headernav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100%;
+
+    width: 45%;
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 0, 6);
+}
+a:hover{
+    color: brown;
+    filter: drop-shadow(10px 10px 5px black);
+    transition: 1.5s;
+}
+
+.logo{
+    background-color: aqua;
+    height: 100px;
+}
+
+.logo:hover{
+    border-radius: 5px;
+}
+
+.presentacion{
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 15px rgba(250, 220, 164, 0.589));
+}
+
+.presentacion:hover{
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 10px;
+  transition: 0.3s;
+  filter: drop-shadow( 0px 0px 20px rgb(255, 237, 132));
+}
+
+.estadisticas{
+  background-color: rgba(250, 220, 164, 0.521);
+  width: 40vh;
+  height: 90vh;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  filter: drop-shadow(0px 0px 10px black);
+  border-radius: 10px;
+
+}
+.fisico{
+  width: 20vh;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{text-align: center;}
+.magico{
+  width: 20vh;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.stats{
+  width: 30vh;
+  height: 50vh;
+  margin: 50px auto;
+  border-radius: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  filter: drop-shadow(0px 0px 15px black);
+  list-style: none;
+}
+ul{
+  list-style: none;
+}
+
+.barats{
+    background-color: rgb(167, 149, 126);
+    margin: 200px auto;
+    width: 100vh;
+    max-width: 100%;
+    height: 200px;
+    font-size: 21px;
+    overflow: auto;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.534));
+}
+
+.build{
+  background-color: rgb(109, 138, 163);
+  width: 600px;
+  height: 200px;
+  margin: 30vh auto;
+  border-radius: 10px;
+}
+.best-buildimg{
+  width: 100%;
+  height: 200px;  
+  border-radius: 10px;
+  }
+
+.best-buildimg h2{
+  position: absolute;
+  margin: 100px auto;
+  left: 40%;
+  font-size: 40px;
+  filter: drop-shadow(0px 0px 10px red
+  );
+}
+
+.build1{
+
+  display: flex;
+  margin: 100px auto;
+  height: 250px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.items{
+  height: 250px;
+  width: 50vh;
+  margin: 30px auto;
+}
+
+.build-tank{
+width: 80%;
+height: 100%;
+}
+
+.build1 img{
+  box-shadow: 0px 0px 20px red;
+
+}
+
+.build-desc{
+
+  width: 35%;
+  height: 100%;
+  font-size: 20px;
+}
+
+.ademas{
+  background-color: rgba(53, 53, 53, 0.151);
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px black);
+  color: antiquewhite;
+  font-size: 25px;
+}
+
+.skins{
+  background-color: aqua;
+  width: 90vh;
+  height: 40vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgba(83, 54, 19, 0.979);
+}
+.skins2{
+  background-color: aqua;
+  width: 90vh;
+  height: 40vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgb(243, 203, 111);
+}
+.skins2:hover{
+  box-shadow: 0px 0px 40px rgba(251, 215, 133);
+  transition: 1s;
+}
+.skins3{
+  background-color: aqua;
+  width: 90vh;
+  height: 40vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgba(44, 63, 59);
+}
+.skins3:hover{
+  box-shadow: 0px 0px 40px rgba(44, 63, 59);
+  transition: 1s;
+}
+.skins4{
+  background-color: aqua;
+  width: 90vh;
+  height: 40vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgba(105, 38, 111);
+}
+.skins4:hover{
+  box-shadow: 0px 0px 40px rgba(105, 38, 111);
+  transition: 1s;
+}
+.skins5{
+  background-color: aqua;
+  width: 90vh;
+  height: 40vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px rgba(1, 60, 182);
+}
+.skins5:hover{
+  box-shadow: 0px 0px 40px rgba(1, 60, 182);
+  transition: 1s;
+}
+
+.skins:hover{
+  box-shadow: 0px 0px 40px rgb(119, 65, 0);
+  transition: 1s;
+}
+
+
+
+.textskins{
+  background-color: rgba(176, 131, 75, 0.466);
+  width: 200px;
+  height: 30px;
+  margin: 20px auto;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 20px rgb(129, 92, 46));
+  font-size: 25px;
+  text-align: center;
+}
+.separar{
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+footer{
+  background-color: rgb(167, 149, 126);
+  width: 100%;
+  height: 60px;
+  margin-top: 100px;
+  position: absolute;
+  box-shadow: 0px 0px 15px black;
+  font-size: 25PX;
+  justify-content: space-around;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
+
+/*celular*/
+ 
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* logo arriba, menú abajo */
+    text-align: center;
+    font-size: 25px;
+    height: 200px;
+  }
+
+  .headernav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+
+  .logo{
+    height: 100px;
+  }
+
+.skins{
+  background-color: aqua;
+  width: 650px;
+  height: 350px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgba(83, 54, 19, 0.979);
+}
+.skins2{
+  width: 650px;
+  height: 350px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgb(243, 203, 111);
+}
+.skins2:hover{
+  box-shadow: 0px 0px 40px rgba(251, 215, 133);
+  transition: 1s;
+}
+.skins3{
+  background-color: aqua;
+  width: 650px;
+  height: 350px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgba(44, 63, 59);
+}
+.skins3:hover{
+  box-shadow: 0px 0px 40px rgba(44, 63, 59);
+  transition: 1s;
+}
+.skins4{
+  background-color: aqua;
+  width: 650px;
+  height: 350px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgba(105, 38, 111);
+}
+.skins4:hover{
+  box-shadow: 0px 0px 40px rgba(105, 38, 111);
+  transition: 1s;
+}
+.skins5{
+  background-color: aqua;
+  width: 650px;
+  height: 350px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgba(1, 60, 182);
+}
+.skins5:hover{
+  box-shadow: 0px 0px 40px rgba(1, 60, 182);
+  transition: 1s;
+}
+
+.skins:hover{
+  box-shadow: 0px 0px 40px rgb(119, 65, 0);
+  transition: 1s;
+}
+
+
+
+
+
+
+
+
+}
+
+/*tablet*/
+
+@media (max-width: 1050px) {
+
+  .headernav{
+    width: 60%;
+  }
+
+  header{
+    background-color: rgb(192, 157, 110);
+
+  }
+
+
+
+}
